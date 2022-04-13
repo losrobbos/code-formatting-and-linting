@@ -116,9 +116,12 @@ In the resulting .eslintrc File you can now adapt again settings to your liking 
 
 You will have autocompletion within the .eslint file (thanks to the VsCode extension) to grab options.
 
-Checkout the ESLint documentation for all available options.
+Checkout the ESLint documentation for all available options:
+https://eslint.org/docs/user-guide/configuring/
 
-And now check any of your JavaScript files! Changes are ESLint will already detect some issues and will hightlight them ;)
+And now check any of your JavaScript files! 
+
+Chances are ESLint will already detect some issues with your messy stuff and will hightlight that shit brutally ;)
 
 And there you go!
 
