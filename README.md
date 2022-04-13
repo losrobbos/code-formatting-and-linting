@@ -132,6 +132,7 @@ Very important!
 ADD the two configuration likes .eslintrc and .pretierrc to your GitHub repository
 
 `git add .eslintrc`
+
 `git add .prettierrc`
 
 Commit and Push.
