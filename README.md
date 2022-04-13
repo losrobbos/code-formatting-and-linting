@@ -163,7 +163,9 @@ And about Linting?
 
 Linting for sure is definitely useful to assure common coding practices and give some additional code organisation rules.
 
-This is important to at some point, especially when you do a team project. But compared to Code Formatting this is not an absolute must.
+This is important at some point, especially when you do a team project with some complexity where code organisation is far more important than in a little pet project. 
+
+But compared to Code Formatting Linting is not an absolute must in each team project.
 
 Long story short: Code Formatting is THE #1 absolute priority. Before you do not get a common agreement here, do not deal with Linting.
 
