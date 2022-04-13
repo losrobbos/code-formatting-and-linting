@@ -145,7 +145,7 @@ This way we will assure we won't get into a lot of nasty trouble of people forma
 
 So in this guide, like mentioned, we will not focus on all the possible options and which concrete settings to apply in your team. There are dozens of articles on this.
 
-Instead let's stress finally on the importante of CODE FORMATTING vs LINTING and the INTERSECTION between both.
+Instead let's stress finally on the importance of CODE FORMATTING vs LINTING. And the INTERSECTION between both.
 
 Common CONFIGURED CODE FORMATTING rules in your project is an absolute must! Otherwise everyone will reformat any existing code when saving files, causing each time a "change" in your Git Repository on that file!
 
@@ -168,6 +168,18 @@ This is important to at some point, especially when you do a team project. But c
 Long story short: Code Formatting is THE #1 absolute priority. Before you do not get a common agreement here, do not deal with Linting.
 
 Once you got your code formatting rules all set, you can go on with your Linting rules.
+
+### The intersection
+
+Linting also can be used to check if you applied certain classical code formatting rules. E.g. if 
+you use 2 spaces for indentation or you use a semicolon to end a line.
+
+Remember: The final word here has the code formatter. The linter just SUGGESTS stuff and will not autocorrect stuff.
+
+It is actually nice if the linter already gives hints on wrong indentation. It reminds you to apply code formatting frequently at minimum before you commit the file and push it ;)
+
+So here you have to make sure that your linting rules line up with your code formatter rules to prevent inconsistencies and confusion.
+
 
 That's it!
 
