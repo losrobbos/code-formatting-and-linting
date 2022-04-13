@@ -125,6 +125,21 @@ Chances are ESLint will already detect some issues with your messy stuff and wil
 
 And there you go!
 
+## Git
+
+Very important!
+
+ADD the two configuration likes .eslintrc and .pretierrc to your GitHub repository
+
+`git add .eslintrc`
+`git add .prettierrc`
+
+Commit and Push.
+
+All other team members should now PULL those so they have the code rules BEFORE starting with any code. 
+
+This way we will assure we won't get into a lot of nasty trouble of people formatting differently as they please. This will prevent team members from scratchings each others eyes out when having the 27th merge conflict due to different code formattings applied to the same file.
+
 ## Final Comments
 
 So in this guide, like mentioned, we will not focus on all the possible options and which concrete settings to apply in your team. There are dozens of articles on this.
