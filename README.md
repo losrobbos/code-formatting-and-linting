@@ -1,4 +1,4 @@
-# Code Formatting and Listing for your project
+# Code Formatting and Linting for your project
 
 So in this guide we gonna deal with the basic setup for LINTING and CODE FORMATTING in your project.
 
@@ -30,19 +30,33 @@ So a code formatter "tidies up" your code.
 
 But the responsibility of a code formatter ends with the FORMAT (so just the "visuals" of your code, like indentation).
 
-But it will not tell you anything beyong that, e.g. if you have declared variables that you never use.
+But it will not tell you anything beyong that, e.g. if you have declared variables that you never use. Or imported libraries that you have not installed yet.
 
 For this we need something which is a bit more smart and analyzes your code entirely, to make suggestions how you could clean up things or make your code less prone to errors.
 
+This is where LINTING comes into play.
+
+LINTING will NOT format or change your code automatically like the Code formatter does.
+
+Instead it will just ANALYZE the code and gives you little HINTS what you could do better on individual parts / lines of your code.
+
+E.g. it would tell you that you declared a variable that you never use in your program. It is not a gigantic issue. It could just theoretically confuse your team members who see that variable and have no idea what this is all about. Is it unnecessay? Will you use it in the future? Or was it just an "accident"?
+
+The linter gives you now the chance to rethink your changes, before you commit and push all that nice junk.
+
+All clear until now?
+
 ## Focus on setup
 
-So now in this guide we will not focus on WHICH Linting Rules are important to set and which not. Because that is subject to the individual team and their needs & preferences.
+So now in this guide we will not focus on WHICH Linting Rules are important to set and which not. Because that is subject to the individual team and their needs & preferences and is covered in a lot of articles on the web.
 
 Instead we just gonna focus on how you can quickly startoff with some sensible defaults.
 
 ## Code Formatting
 
-Setup prettier for VsCode by installing the extension
+First we gonna setup a tool for automatic code formatting (yes, that one will indeed TOUCH your code and make changes to it)
+
+Setup prettier for VsCode by installing the corresponding extension.
 
 Go to "Extension" in the left icon panel and search for:
 
