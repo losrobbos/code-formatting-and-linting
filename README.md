@@ -62,13 +62,19 @@ Go to "Extension" in the left icon panel and search for:
 
 `Prettier - Code Formatter`
 
-Now we can apply code formatting within vscode, e.g. when saving or on demand (by a keyboard shortcut)
+Now we can apply code formatting within vscode, e.g. when saving or on demand (by a keyboard shortcut).
+
+You can find the shortcut for code formatting in VsCode, when you open to the command bar (CTRL+SHIFT+P) and type "Format". Now you can select & apply the "Format" command on your code.
+
+In case you have no "default formatter" set, please pick Prettier from the arising list.
+
+Alternatively you can configure Prettier to apply formatting on save.
 
 Now please install prettier specific for your project in the terminal (so everybody will use the same version of prettier in the project)
 
 `npm i -D prettier`
 
-Now create a config file for prettier in your project:
+Create a config file for prettier in your project:
 
 https://prettier.io/docs/en/configuration.html
 
@@ -79,6 +85,10 @@ Experiment with some basic settings from the given page above, e.g. set "singleQ
 Alright!
 
 Now discuss with your team your basic code formatting, e.g. if you wanna have semicolons at the end of each line and how many spaces you wanna use for indentation (2 vs 4)
+
+So far about the basic code formatting setup for your team.
+
+You are now ready to format stuff all the same way.
 
 ## Linting
 
