@@ -60,7 +60,7 @@ Instead we just gonna focus on how you can quickly startoff with some sensible d
 
 ### Code Formatter Setup - Prettier
 
-First we gonna setup a tool for automatic code formatting (yes, that one will indeed TOUCH your code and make changes to it)
+First we gonna setup a tool for automatic code formatting.
 
 Setup prettier for VsCode by installing the corresponding extension.
 
