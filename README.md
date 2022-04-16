@@ -32,7 +32,7 @@ So a code formatter "tidies up" your code.
 
 But the responsibility of a code formatter ends with the FORMAT (so just the "visuals" of your code, like indentation).
 
-It will not tell you anything beyong that, e.g. if you have declared variables that you never use. Or imported libraries that you have not installed yet.
+It will not tell you anything beyond that, e.g. if you have declared variables that you never use. Or imported libraries that you have not installed yet.
 
 For this we need some tool which is a bit more smart. 
 
