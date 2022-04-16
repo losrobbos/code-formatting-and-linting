@@ -98,7 +98,7 @@ You are now ready to format stuff all the same way.
 
 ## Linting with ESLint
 
-For Linting we gonna use the universally used package ESList.
+For Linting we gonna use the universally used package ESLint.
 
 Once more we gonna install an extension for assisted usage in VSCode.
 
@@ -147,7 +147,7 @@ So here you have to make sure that your linting rules line up with your code for
 
 ## Git
 
-It is very important to SHARE these defined rules for code style & format with out members in the team.
+It is very important to SHARE these defined rules for code style & format with our members in the team.
 
 ADD the two configuration likes .eslintrc and .pretierrc to your GitHub repository
 
