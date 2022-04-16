@@ -169,13 +169,19 @@ So in this guide, like mentioned, we will not focus on all the possible options 
 
 Instead let's stress finally on the importance of CODE FORMATTING vs LINTING. And the INTERSECTION between both.
 
-Common CONFIGURED CODE FORMATTING rules in your project is an absolute must! Otherwise everyone will reformat any existing code when saving files, causing each time a "change" in your Git Repository on that file!
+Project-wide configured code formatting rules are an absolute must! 
 
-So it will happen frequently that suddently files will appear as "changed" on your GitHub repository when you do a merge, and often even BIG CHUNKS of codelines, sometimes even the WHOLE (!) file will appear to be changed, even though you just changed one line or maybe no line at all!
+Otherwise everyone will reformat any existing code when saving files, causing each time a "change" in your Git Repository on that file.
+
+So it will happen frequently that suddently files will appear as "changed" on your GitHub repository when you do a merge. 
+
+Not rarely big blocks of codelines, sometimes almost the WHOLE (!) file will appear to be changed. Even though you actually just changed one line. Or maybe no line at all!
 
 What is the reason?
 
-Usually different settings for whitespace (!). E.g. if two members use a different amount of whitespaces for indenting code blocks, EVERY (!) indented code block will be seen as a CHANGED (!) line by Git. And this will create a lot of confusion, making it almost impossible to spot the REAL code changes.
+Two people who used different Code Formatting!
+
+Different settings for whitespace or semicolons at the end of lines alone will make efficient merging in the team almost impossible. E.g. if two members use a different amount of whitespaces for indenting code blocks, EVERY (!) indented code block will be seen as a CHANGED (!) line by Git. And this will create a lot of confusion, making it almost impossible to spot the REAL code changes.
 
 So please - AT MINIMUM - setup a .prettierrc file for your team where you agree on SEMICOLONS, WHITESPACE and basic formatting of code blocks (e.g. an if block with curly brace on the same line).
 
