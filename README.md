@@ -129,7 +129,7 @@ https://eslint.org/docs/user-guide/configuring/
 
 And now check any of your JavaScript files! 
 
-Chances are ESLint will already detect some issues with your messy stuff and will hightlight that shit brutally ;)
+Chances are ESLint will already detect some issues with your messy stuff and will hightlight that shit brutally.
 
 And there you go!
 
@@ -140,7 +140,7 @@ you use 2 spaces for indentation or you use a semicolon to end a line.
 
 Remember: The final word here has the code formatter. The linter just SUGGESTS stuff and will not autocorrect stuff.
 
-It is actually nice if the linter already gives hints on wrong indentation. It reminds you to apply code formatting frequently at minimum before you commit the file and push it ;)
+It is actually nice if the linter already gives hints on wrong indentation. It reminds you to apply code formatting frequently at minimum before you commit the file and push it.
 
 So here you have to make sure that your linting rules line up with your code formatter rules to prevent inconsistencies and confusion.
 
@@ -167,7 +167,7 @@ This way we will assure we won't get into a lot of nasty trouble of people forma
 
 So in this guide, like mentioned, we will not focus on all the possible options and which concrete settings to apply in your team. There are dozens of articles on this.
 
-Instead let's stress finally on the importance of CODE FORMATTING vs LINTING. And the INTERSECTION between both.
+Instead let's stress finally on the importance of CODE FORMATTING vs LINTING.
 
 Project-wide configured code formatting rules are an absolute must! 
 
@@ -179,7 +179,7 @@ Not rarely big blocks of codelines, sometimes almost the WHOLE (!) file will app
 
 What is the reason?
 
-Two people who used different Code Formatting!
+Two people who used different Code Formatting rules!
 
 Different settings for whitespace or semicolons at the end of lines alone will make efficient merging in the team almost impossible. E.g. if two members use a different amount of whitespaces for indenting code blocks, EVERY (!) indented code block will be seen as a CHANGED (!) line by Git. And this will create a lot of confusion, making it almost impossible to spot the REAL code changes.
 
